@@ -13,7 +13,7 @@ var sensor = {
             'humidity: ' + readout.humidity.toFixed(2) + '%');
         setTimeout(function () {
             sensor.read();
-        }, 5000);
+        }, 300000);
 
                 var Firebase = require('firebase');
                 var myRootRef = new Firebase('https://intense-torch-2736.firebaseio.com');

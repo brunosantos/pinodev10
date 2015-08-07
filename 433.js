@@ -1,7 +1,11 @@
 //tx-24? 22 gpio6 gpio25 //rx- 22? 18 gpio5 gpio24 
+//25 rx 6
+//24 tx 5
 var rc = require('piswitch'); 
- rc.setup({ pin: 6,
-    mode: 'sys', // alternative: change to gpio and use root
+ rc.setup(
+{ 
+pin: 4,
+    mode: 'wpi', // alternative: change to gpio and use root
     pulseLength: 330, // this works for me, but 350 is very common
     protocol: 1
 });

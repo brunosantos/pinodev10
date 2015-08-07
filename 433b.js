@@ -12,7 +12,7 @@ var rc = require('piswitch');
 //   pin chart: http://pi.gadgetoid.com/pinout/
 
 rc.setup({
-pi:6,
+pi:4,
     mode: 'sys', // alternative: change to gpio and use root
     pulseLength: 330, // this works for me, but 350 is very common
     protocol: 1
